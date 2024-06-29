@@ -1,0 +1,16 @@
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\bin\Debug\net8.0\Kindred.Application.deps.json
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\bin\Debug\net8.0\Kindred.Application.dll
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\bin\Debug\net8.0\Kindred.Application.pdb
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\bin\Debug\net8.0\Kindred.Domain.dll
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\bin\Debug\net8.0\Kindred.Domain.pdb
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\Kindred.Application.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\Kindred.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\Kindred.Application.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\Kindred.Application.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\Kindred.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\Kindred.Application.sourcelink.json
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\Kindred.Application.csproj.CopyComplete
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\Kindred.Application.dll
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\refint\Kindred.Application.dll
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\Kindred.Application.pdb
+C:\Users\User\OneDrive\Рабочий стол\!!!Моє\2 курс\my_Summer_Practice\Final_version_Kindred\Kindred.Application\obj\Debug\net8.0\ref\Kindred.Application.dll

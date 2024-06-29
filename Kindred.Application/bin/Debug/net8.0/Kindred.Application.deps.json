@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Kindred.Application/1.0.0": {
+        "dependencies": {
+          "Kindred.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Kindred.Application.dll": {}
+        }
+      },
+      "Kindred.Domain/1.0.0": {
+        "runtime": {
+          "Kindred.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kindred.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Kindred.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

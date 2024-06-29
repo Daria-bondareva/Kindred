@@ -1,0 +1,49 @@
+﻿@inject IEventRepository Repository
+@inject NavigationManager Navigation
+
+<div class="event-card">
+    <div class="event-card-body">
+        <h5 class="fw-bold">@Event.Title</h5>
+        Категорія: @Event.Category
+        <br />
+        Місце - @Event.Venue | Дата - @Event.PublicationDate?.ToString("MMMM dd, yyyy")
+        <br />
+        Опис: @Event.Description
+    </div>
+    <div class="actions">
+        <a href="@($"/edit/{Event.Id}")"
+        class="btn btn-warning shadow-none">
+            Редагувати
+        </a>
+        <button @onclick="OpenConfirmDialog"
+            class="btn btn-danger shadow-none ms-3">
+            Видалити
+        </button>
+    </div>
+</div>
+
+<DeleteConfirmDialog Show="showConfirmDialog" 
+    OnCancel="CancelDelete"
+    OnOk="DeleteEvent"/>
+
+@code {
+    private bool showConfirmDialog;
+    [Parameter]
+    public required Event Event{ get; set; }
+
+    private void OpenConfirmDialog()
+    {
+        showConfirmDialog = true;
+    }
+
+    private void CancelDelete()
+    {
+        showConfirmDialog = false;
+    }
+    private async Task DeleteEvent()
+    {
+        await Repository.DeleteByIdAsync(Event.Id);
+        showConfirmDialog = false;
+        Navigation.NavigateTo("/list-events");
+    }
+}

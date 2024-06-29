@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Рабочий стол\\!!!Моє\\2 курс\\my_Summer_Practice\\Final_version_Kindred\\Kindred_\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Kindred_.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Kindred_.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Рабочий стол\\!!!Моє\\2 курс\\my_Summer_Practice\\Final_version_Kindred\\Kindred_\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Рабочий стол\\!!!Моє\\2 курс\\my_Summer_Practice\\Final_version_Kindred\\Kindred_\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Рабочий стол\\!!!Моє\\2 курс\\my_Summer_Practice\\Final_version_Kindred\\Kindred_\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Рабочий стол\\!!!Моє\\2 курс\\my_Summer_Practice\\Final_version_Kindred\\Kindred_\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Рабочий стол\\!!!Моє\\2 курс\\my_Summer_Practice\\Final_version_Kindred\\Kindred_\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Kindred_.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Kindred_.props",
+      "PackagePath": "build\\Kindred_.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Kindred_.props",
+      "PackagePath": "buildMultiTargeting\\Kindred_.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Kindred_.props",
+      "PackagePath": "buildTransitive\\Kindred_.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

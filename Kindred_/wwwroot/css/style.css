@@ -1,0 +1,48 @@
+﻿body {
+    position: relative;
+    font-family: align;
+    font-size: 32px;
+    line-height: 1.4;
+    color: #000;
+    min-width: 320px;
+    overflow-x: hidden;
+    height: auto;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.navbar-nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+    .navbar-nav .nav-item {
+        display: inline-block;
+        margin-right: 50px; /* Add spacing between items */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 36px; /* Increase font size */
+        color: #333; /* Darker font color */
+        opacity: 0.8; /* Slightly darker opacity */
+        text-decoration: none;
+        padding: 0 50px; /* Adjusted padding to ensure even spacing */
+        transition: all .07s ease-in-out;
+    }
+
+        .navbar-nav .nav-link:hover {
+            opacity: 1;
+        }
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 50px;
+    text-decoration: none;
+    color: #000;
+}

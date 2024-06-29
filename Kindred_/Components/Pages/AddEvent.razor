@@ -1,0 +1,89 @@
+﻿@page "/add-event"
+
+@inject IEventRepository Repository
+@inject NavigationManager Navigation
+
+
+<PageTitle>
+    Додавання події
+</PageTitle>
+
+<div class="row justify-content-center">
+    <div class="col-6">
+        <EditForm Enhance="true" method="post" FormName="AddEventForm" OnValidSubmit="Add_Event" Model="Event" autocomplete="off">
+            <h3>
+                Додати нову подію
+            </h3>
+
+            
+            <div class="mb-3">
+                <label for="category" class="form-label">
+                    Категорія
+                </label>
+                <InputSelect id="category" @bind-Value="Event.Category" class="form-control shadow-none">
+                    <option value="0">
+                        Натисність для вибору категорії
+                    </option>
+                    @foreach(var category in Enum.GetValues(typeof(Category)))
+                    {
+                        <option value="@category">
+                            @category.ToString()
+                        </option>
+                    }
+                </InputSelect>
+            </div>
+
+            <div class="mb-3">
+                <label for="title" class="form-label">
+                    Назва події
+                </label>
+                <InputText id="title" @bind-Value="Event.Title" class="form-control shadow-none" />
+            </div>
+
+            <div class="mb-3">
+                <label for="title" class="form-label">
+                    Місце
+                </label>
+                <InputText id="title" @bind-Value="Event.Venue" class="form-control shadow-none" />
+            </div>
+
+            <div class="mb-3">
+                <label for="meet-date" class="form-label">
+                    Дата
+                </label>
+                <InputDate id="meet-date" @bind-Value="Event.PublicationDate" class="form-control shadow-none" />
+            </div>
+
+            <div class="mb-3">
+                <label for="description" class="form-label">
+                    Опис
+                </label>
+                <InputText id="description" @bind-Value="Event.Description" class="form-control shadow-none" />
+            </div>
+
+            <div class="mb-3">
+                <button class="btn btn-primary shadow-none">
+                    Submit
+                </button>
+                <a href="/list-events" class="btn btn-secondary shadow-none ms-3">
+                    Повернутись до списку подій
+                </a>
+            </div>
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+        </EditForm>
+
+    </div>
+</div>
+
+@code{
+    [SupplyParameterFromForm]
+    public Event Event { get; set; } = new();
+
+    private async Task Add_Event()
+    {
+        await Repository.AddAsync(Event);
+        Navigation.NavigateTo("/list-events");
+    }
+
+}
